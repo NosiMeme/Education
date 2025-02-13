@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #7e6d85; /* Light sky blue */
+    color: #333; /* Dark text for readability */
+}
+header {
+    background: #C0CCC2; /* Bright yellow */
+    color: #000; /* Black text */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+nav {
+    margin: 10px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #A9A8AD; /* Darker gold on hover */
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.section {
+    background: #e4e1d6; /* White background for sections */
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #130f00;
+    border-bottom: 2px solid #534716;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+h3 {
+    color: #B37B88; /* Darker gold */
+    margin-top: 15px;
+}
+button {
+    padding: 10px 15px;
+    background: #7D7F81; /* Bright yellow */
+    color: #111111;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+button:hover {
+    background: #ff9900; /* Darker gold on hover */
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+.resource-list {
+    list-style-type: none;
+    padding: 0;
+}
+.resource-list li {
+    background: #e4e1d6; /* Light gray */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.resource-list a {
+    color: #0077ff; /* Bright yellow */
+    text-decoration: none;
+}
+.resource-list a:hover {
+    text-decoration: underline;
+}
+.age-specific {
+    border: 2px dashed #3D3A4A; /* Dashed border for age-specific sections */
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.fun-facts {
+    margin-top: 20px;
+    background: #e4e1d6; /* Light gray background for fun facts */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
